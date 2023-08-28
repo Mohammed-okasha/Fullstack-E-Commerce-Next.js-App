@@ -14,7 +14,7 @@ const HomePage = ({ featuredProducts }) => {
         />
       </Head>
       <Banner />
-      <Section title="our products" variant="h3">
+      <Section title="featured products" variant="h3">
         <ProductsList products={featuredProducts} />
       </Section>
     </>

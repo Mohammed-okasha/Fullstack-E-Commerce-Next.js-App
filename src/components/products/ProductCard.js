@@ -58,7 +58,11 @@ const ProductCard = ({ product }) => {
           <br />
           {product.newPrice && <ins>${product.newPrice}</ins>}
         </Typography>
-        <Button variant="contained" onClick={addProductToCart}>
+        <Button
+          variant="contained"
+          sx={{ minWidth: 50 }}
+          onClick={addProductToCart}
+        >
           {!loading ? <CartIcon /> : <Spinner />}
         </Button>
       </Stack>

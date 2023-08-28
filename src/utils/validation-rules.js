@@ -4,7 +4,7 @@ const emailRegEx = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+.[A-Z]{2,4}$/i;
 
 const emailValidateRules = Yup.string()
   .matches(emailRegEx, "please enter a valid email!")
-  .required("name required!");
+  .required("email required!");
 
 const passwordValidateRules = Yup.string()
   .min(8, "password at least 8 characters!")

@@ -10,7 +10,7 @@ const productsReducer = (state, action) => {
   if (action.type === "SEARCH") {
     return {
       ...state,
-      searchValue: action.searchValue.trim(),
+      searchValue: action.searchValue.trim().toLowerCase(),
     };
   }
 

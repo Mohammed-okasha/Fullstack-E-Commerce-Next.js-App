@@ -40,7 +40,7 @@ const CardHeader = ({ product }) => {
         >
           <Image
             width={500}
-            height={400}
+            height={450}
             src={product.thumbnail}
             alt={product.thumbnail}
             priority={true}

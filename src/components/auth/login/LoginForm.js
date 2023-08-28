@@ -4,8 +4,8 @@ import Button from "@mui/material/Button";
 import { loginSchema } from "@/utils/validation-rules";
 
 const loginFormValues = {
-  email: "",
-  password: "",
+  email: "user1@gmail.com",
+  password: "12345678",
 };
 //========================================================
 const LoginForm = ({ onUserLogin }) => {

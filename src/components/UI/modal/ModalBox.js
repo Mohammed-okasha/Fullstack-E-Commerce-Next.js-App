@@ -18,7 +18,13 @@ const ModalBox = ({ children, onClose }) => {
       <Button
         type="button"
         variant="contained"
-        sx={{ position: "absolute", top: -27, right: 0, minWidth: "40px" }}
+        sx={{
+          position: "absolute",
+          top: -29,
+          right: 0,
+          minWidth: "40px",
+          py: "6px",
+        }}
         size="small"
         onClick={onClose}
       >

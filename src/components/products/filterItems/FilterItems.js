@@ -17,7 +17,7 @@ const FilterItems = () => {
       direction={{ sm: "row" }}
       spacing={2}
       rowGap={1}
-      sx={{ "& > *": { flex: 1 }, mb: 2 }}
+      sx={{ "& > *": { flex: 1, bgcolor: "#fff" }, mb: 2 }}
     >
       <input
         type="text"

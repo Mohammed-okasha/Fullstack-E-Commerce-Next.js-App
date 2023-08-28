@@ -8,13 +8,14 @@ const ImageList = ({ images, onToggleMainImage }) => {
   }
 
   return (
-    <Grid container spacing={1} mt={1} sx={{ cursor: "pointer" }}>
+    <Grid container spacing={1} mt={1}>
       {images.map((img, index) => (
         <Grid
           key={index}
           item
           xs={4}
           sm={3}
+          sx={{ cursor: "pointer", "& img": { userSelect: "none" } }}
           onClick={onToggleMainImage.bind(null, img)}
         >
           <Image

@@ -39,12 +39,12 @@ const AppDrawer = (props) => {
         onClick={onDrawerToggle}
         sx={{
           position: "absolute",
-          right: "-30px",
+          right: "-34px",
           top: "50%",
           transform: "translateY(-50%)",
           bgcolor: "primary.main",
           color: "#fff",
-          p: "4px 6px",
+          p: "6px 8px",
           borderRadius: 0,
           "&:hover": {
             bgcolor: "primary.main",

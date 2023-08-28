@@ -1,10 +1,12 @@
+import { getServerSession } from "next-auth/next";
+import { authOptions } from "../api/auth/[...nextauth]";
 import { Centring } from "@/components/UI";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Link from "next/link";
 import Button from "@mui/material/Button";
 
-const ForgotPasswordPage = () => {
+const CheckoutPage = ({ session }) => {
   return (
     <Centring>
       <Box textAlign="center">
@@ -24,4 +26,21 @@ const ForgotPasswordPage = () => {
   );
 };
 
-export default ForgotPasswordPage;
+export const getServerSideProps = async ({ req, res }) => {
+  const session = await getServerSession(req, res, authOptions);
+
+  if (!session) {
+    return {
+      redirect: {
+        destination: "/account/login",
+        permanent: false,
+      },
+    };
+  }
+
+  return {
+    props: { session },
+  };
+};
+
+export default CheckoutPage;

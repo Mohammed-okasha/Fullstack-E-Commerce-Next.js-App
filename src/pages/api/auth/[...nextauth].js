@@ -20,10 +20,6 @@ export const authOptions = {
 
         const client = await connectToDatabase();
 
-        // if (!client) {
-        //   throw new Error("something went wrong!");
-        // }
-
         const user = await findUserByEmail(client, "userAccounts", email);
 
         if (!user) {
