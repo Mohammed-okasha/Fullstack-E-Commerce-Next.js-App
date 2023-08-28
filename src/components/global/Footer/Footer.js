@@ -3,6 +3,7 @@ import Container from "@mui/material/Container";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import Logo from "../Header/Logo";
+import SocialMedia from "@/components/UI/utilities/SocialMedia";
 
 const Footer = () => {
   const { palette: colors } = useTheme();
@@ -23,6 +24,7 @@ const Footer = () => {
           </Typography>
           <Logo isFooter={true} />
         </Stack>
+        <SocialMedia />
       </Container>
     </footer>
   );
