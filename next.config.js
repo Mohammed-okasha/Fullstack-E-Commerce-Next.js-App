@@ -36,8 +36,7 @@ const nextConfig = (phase, { defaultConfig }) => {
       db_password: "Uev8JFgU9VJyiDH8",
       db_clusterName: "cluster0",
       dbName: "deStore",
-      NEXTAUTH_URL: "http://localhost:3000",
-      // NEXTAUTH_URL: "https://next-auth-gamma.vercel.app/",
+      NEXTAUTH_URL: "https://de-store-mu.vercel.app/",
       NEXTAUTH_SECRET: "E/SBK117MIUHUqBkUgaNzyrrvbW//c8KMi4sRA/baog=",
     },
   };
