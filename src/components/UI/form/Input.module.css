@@ -1,0 +1,35 @@
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cecece;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: #0063d1;
+  transition: 0.3s;
+}
+.input:focus {
+  outline: none;
+  border-color: #0063d1;
+}
+.input::-moz-placeholder {
+  text-transform: capitalize;
+  font-size: 13px;
+}
+.input::placeholder {
+  text-transform: capitalize;
+  font-size: 13px;
+}
+.input.password {
+  flex: 1;
+  border: none;
+}
+
+.errorMsg {
+  font-size: 11px;
+  color: rgb(229, 0, 0);
+  padding-top: 6px;
+}
+
+.invalid, .invalid:focus {
+  border-color: rgb(229, 0, 0) !important;
+}/*# sourceMappingURL=Input.module.css.map */

@@ -1,0 +1,14 @@
+.filterItem {
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  caret-color: #0063d1;
+}
+.filterItem:focus {
+  border-color: #0063d1;
+}
+.filterItem.select {
+  text-transform: capitalize;
+  cursor: pointer;
+}/*# sourceMappingURL=FilterItems.module.css.map */
