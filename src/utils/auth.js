@@ -10,6 +10,7 @@ export async function hashPassword(password) {
 export async function verifyPassword(password, hashedPassword) {
   return await compare(password, hashedPassword);
 }
+
 //?====================================================================
 export async function createAccount(user) {
   const res = await fetch("/api/auth/sign-up", {

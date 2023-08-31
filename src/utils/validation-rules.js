@@ -29,6 +29,14 @@ export const changePasswordSchema = Yup.object().shape({
   newPassword: passwordValidateRules,
   oldPassword: passwordValidateRules,
 });
+
+export const forgotPasswordSchema = Yup.object().shape({
+  email: emailValidateRules,
+});
+
+export const resetPasswordSchema = Yup.object().shape({
+  password: passwordValidateRules,
+});
 //========================================================================
 export function validateEmail(email) {
   return emailRegEx.test(String(email).trim().toLowerCase());
