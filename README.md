@@ -15,7 +15,7 @@
 - Store Items Data in The Database When the User is Authenticated And logged in.
 - User Can Do All Cart Operations (Add, Delete, Update).
   
-# Wihslist Page
+# Wishlist Page
 - Store Items Data in The Database When the User is Authenticated And logged in.
 - Add And Remove Items.
 
