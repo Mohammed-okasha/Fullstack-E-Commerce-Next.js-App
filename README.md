@@ -1,6 +1,6 @@
 # FullStack E-Commerce Next.JS
 
-#App Features
+# App Features
 * Authentication:
 - Create An Account.
 - Login With Credentials.
@@ -8,21 +8,20 @@
 - A user Can Change Their Password When They Are Authenticated And logged in.
 - Logout
 
-* Product Details Page
+# Product Details Page
 - User Can Add His Review And Rate On Every Product, But This Feature Requires User Authentication And Login
 
-* Shopping Cart
+# Shopping Cart
 - Store Items Data in The Database When the User is Authenticated And logged in.
 - User Can Do All Cart Operations (Add, Delete, Update).
   
-* Wihslist Page
+# Wihslist Page
 - Store Items Data in The Database When the User is Authenticated And logged in.
 - Add And Remove Items.
 
-* Shop Page That Allows Users Search Product By Name And Filter Products By Categories
+# Shop Page That Allows Users Search Product By Name And Filter Products By Categories
 
-  #App Technologies:
-  
+# App Technologies:
 * Next.js:
 1- API Routes:
 - This application contains many Different API Routes, which connect the user interface with the backend to carry out all the operations and tasks required by the client side.
