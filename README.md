@@ -31,22 +31,21 @@
 2- Pre-Rendring:
 - This App Contains Different Pages for Pre-Rendering.
 - This App Contains All Pre-rendering Forms For Pages, Like (SSG, SSR, ISR), dynamic pages using getStaticPaths & getServerSideProps.
-
+- 
 3- configure next.config file Like variable environment
-
 4- Using React Portals With Next.js in _document.js special file.
 
-* Next.Auth Library
+# Next.Auth Library
 
-* React.js + React Hooks + Custom Hooks
+# React.js + React Hooks + Custom Hooks
 
-* Redux Toolkit
+# Redux Toolkit
 
-* Material UI + Little Sass
+# Material UI + Little Sass
 
-* MongoDB For a Database
+# MongoDB For a Database
 
-* Formik + Yup
+# Formik + Yup
 
-* bcryptjs For Encrypt Data
+# bcryptjs For Encrypt Data
   
