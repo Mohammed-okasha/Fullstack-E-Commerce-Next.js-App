@@ -33,6 +33,7 @@
 - This App Contains All Pre-rendering Forms For Pages, Like (SSG, SSR, ISR), dynamic pages using getStaticPaths & getServerSideProps.
 
 3- configure next.config file Like variable environment.
+
 4- Using React Portals With Next.js in _document.js special file.
 
 # Next.Auth Library
