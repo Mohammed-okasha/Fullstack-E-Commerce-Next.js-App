@@ -19,13 +19,14 @@
 - Store Items Data in The Database When the User is Authenticated And logged in.
 - Add And Remove Items.
 
-# Shop Page That Allows Users Search Product By Name And Filter Products By Categories
+# Shop Page
+- Allows Users Search Product By Name And Filter Products By Categories
 
 # App Technologies:
-* Next.js:
-1- API Routes:
+# Next.js:
+1 API Routes:
 - This application contains many Different API Routes, which connect the user interface with the backend to carry out all the operations and tasks required by the client side.
- - All The API Routes That Require Permission And User Auth Are Protected on the client-side and server-side.
+- All The API Routes That Require Permission And User Auth Are Protected on the client-side and server-side.
  
 2- Pre-Rendring:
 - This App Contains Different Pages for Pre-Rendering.
